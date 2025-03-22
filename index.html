@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Godstime Pious" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Discover the power of AI. Our chatbot provides helpful information, solves problems, and engages in natural conversations.">
+    <meta name="keywords" content="AI Chatbot, AI, Articificial Inteliigence, Chatbot, Virtual Assistant, Ai Assistant, Digital Assistant, Automated chat, Inteliigent Chatbot, Interactive AI, Personalized Chat">
+
+    <meta property="og:title" content="Gideon AI - Your Number One Trusted AI Assistant">
+    <meta property="og:description" content="Discover the power of AI. Our chatbot provides helpful information, solves problems, and engages in natural conversations.">
+    <meta property="og:image" content="https://gideon.vercel.app/assets/images/social-share-image.PNG">
+    <meta property="og:url" content="https://gideon.vercel.app">
+    <meta property="og:type" content="website">
+    <meta name="robots" content="index, follow">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gideon AI - Your Number One Trusted AI Assistant">
+    <meta name="twitter:description" content="Discover the power of AI. Our chatbot provides helpful information, solves problems, and engages in natural conversations.">
+    <meta name="twitter:image" content="https://gideon.vercel.app/assets/images/social-share-image.PNG">
+    <title>Gideon AI - Your Number One Trusted AI Assistant</title>
+
+    <link rel="shortcut icon" href="./assets/images/gideon logo.PNG" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/app.css" />
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js"></script>
+  </head>
+  <body>
+    <nav class="primary-navigation">
+      <h3 class="brand">GIDEON AI</h3>
+
+      <div class="icon-wrapper">
+        <img
+          src="./assets/images/sun.svg"
+          alt="sun icon"
+          id="theme-el"
+          width="30px"
+        />
+      </div>
+    </nav>
+
+    <main>
+      <div class="chat-container">
+        <!-- <span class="odd sender">Hello</span>
+        <span class="even receiver"
+          >Hey there! How can i help you today? 😊</span
+        >
+        <span class="odd sender">How are you doing today</span>
+        <span class="even receiver"
+        >I am doing well, how can i help you today?</span
+      > -->
+      </div>
+      <div class="message-container">
+        <div class="message-box">
+          <form action="#" method="post" id="geminiForm">
+            <label for="message" aria-hidden>Message</label>
+            <textarea name="" draggable="false" id="message"></textarea>
+            <button class="message-btn" id="js-message-btn">SEND</button>
+          </form>
+        </div>
+        <p class="warning-text">
+          Gideon can make mistakes
+          <a href="https://ai.google.com/">Learn more.</a>
+        </p>
+        <p class="trademark-text warning-text"></p>
+      </div>
+    </main>
+
+    <script type="module"  src="./src/app.js"></script>
+  </body>
+</html>
+
